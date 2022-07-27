@@ -1,5 +1,6 @@
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import org.junit.Assert;
 
@@ -90,5 +91,45 @@ public class AprenderCucumber {
         cal.setTime(entrega);
         cal.add(Calendar.MONTH, int1);
         entrega = cal.getTime();
+    }
+
+    @Dado("que o ticket é {string}{int}")
+    public void queOTicketÉ(String string, Integer int1) {
+
+    }
+
+    @Dado("que o valor da passagem é R$ {double}")
+    public void queOValorDaPassagemÉR$(Double double1) {
+
+    }
+
+    @Dado("que o nome do passageiro é {string}")
+    public void queONomeDoPassageiroÉ(String string) {
+
+    }
+
+    @Dado("que o telefone do passageiro é {int}{int}")
+    public void queOTelefoneDoPassageiroÉ(Integer int1, Integer int2) {
+
+    }
+
+    @Quando("criar os steps")
+    public void criarOsSteps() {
+
+    }
+
+    @Então("o teste vai funcionar")
+    public void oTesteVaiFuncionar() {
+
+    }
+
+    @Dado("que o ticket é AB{int}")
+    public void queOTicketÉAB(Integer int1) {
+
+    }
+
+    @Dado("que o valor da passagem é R$ {double}{double}")
+    public void queOValorDaPassagemÉR$(Double double1, Double double2) {
+
     }
 }
