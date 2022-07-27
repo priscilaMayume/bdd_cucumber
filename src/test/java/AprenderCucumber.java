@@ -130,6 +130,5 @@ public class AprenderCucumber {
 
     @Dado("que o valor da passagem é R$ {double}{double}")
     public void queOValorDaPassagemÉR$(Double double1, Double double2) {
-
     }
 }
